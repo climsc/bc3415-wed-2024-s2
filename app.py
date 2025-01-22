@@ -8,4 +8,4 @@ def index(): #renders template
     return(render_template("index.html"))
 
 if __name__ == "__main__": #confirming that the application belongs to us
-    app.run()
+    app.run(port=1234)
